@@ -28,7 +28,7 @@ ul {
 body {
 	width: 760px;
 	margin: 0 auto;	
-	background-color: pink;
+	background-color: rgb(50,50,50);
 	color: rgb(255,255,255);
 }
 
@@ -47,9 +47,10 @@ p {
 
 .subform {
 	font-size: 1.2em;
-	color: blue;
-	font-family: Tahoma,sans-serif;
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
 }
+
 .subform .label {
 	display: inline-block;
 	width: 200px;
@@ -57,35 +58,37 @@ p {
 	text-align: right;
 	margin-right: 10px;
 	font-weight: bold;
-	color: blue;
+	color: rgba(255,255,255,.5);
 }
+
 .subform input[type="submit"] {
 	margin-left: 220px;
 	padding: 10px 25px;
 	font-size: 1em;
-	color: blue;
+	color: white;
 	background: rgb(0,102,153);
 	background: linear-gradient(to bottom, rgba(255,255,255,.1) 40%, rgba(255,255,255,.5));
+	border: none;
 	border-radius: 5px;
 	box-shadow: 0 0 4px white;
 }
+
 .subform select {
-	font-size: 1.2em;	
+	font-size: 1.2em;
 }
+
 .subform input[type="text"], .subform textarea {
 	border-radius: 5px;
 	border: none;
-	outline: none;
 	background-color: rgba(255,255,255,.5);
-	color: blue;
+	color: rgba(255,255,255,1);
 	font-size: 1.2em;
-	box-shadow: inset 0 0 20px rgba(255,255,255,.75);
+	box-shadow: inset 0 0 10px rgba(255,255,255,.75);
 	width: 500px;
 	padding: 5px;
 }
+
 .subform input[type="text"]:focus, .subform textarea:focus {
-	background-color: red;
-	color: blue;
+	background-color: white;
+	color: black;
 }
-
-
